@@ -48,6 +48,10 @@ header {
 
 }
 
+
+img.logo{
+    margin-top: 35px;
+}
 .logo { 
     /* display: inline-block; */
     height: 125px;
