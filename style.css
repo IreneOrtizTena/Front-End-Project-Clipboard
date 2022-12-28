@@ -32,13 +32,13 @@ body {
 header {
    text-align: center;
    height: 100%;
-   padding: 0 10 ;
+   
    
    
 }
 
 .header-bg {
-    height: 30%;
+    height: 40%;
     background-image: url(/images/bg-header-desktop.png);
     background-position: center;
     background-size: cover;
@@ -51,6 +51,7 @@ header {
 .logo { 
     /* display: inline-block; */
     height: 125px;
+
     
 }
 
@@ -96,4 +97,12 @@ button:nth-child(2) {
     background-color: hsl(233, 100%, 69%);
     box-shadow: hsl(233, 100%, 69%);
 }
-    
+
+@media screen and (min-width: 992px) {
+    .header-buttons {
+        flex-direction: row;
+        /* justify-content: space-around; */
+        padding: 20px 0;
+    }
+
+}
